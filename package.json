@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_tec_desar_web",
+  "version": "1.0.0",
+  "description": "Este proyecto es el resultado de la actividad evaluativa del Curso Nivelador del Máster en Full Stack Web Development. La aplicación consiste en una API REST desarrollada en Node.js que se conecta a una base de datos MongoDB alojada en un contenedor Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deivis9010/proyecto_tec_desar_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deivis9010/proyecto_tec_desar_web/issues"
+  },
+  "homepage": "https://github.com/deivis9010/proyecto_tec_desar_web#readme"
+}
