@@ -3,10 +3,10 @@ Este proyecto es el resultado de la actividad evaluativa del Curso Nivelador del
 
 El proyecto cubre los siguientes aspectos clave:
 
-Despliegue de MongoDB en Docker con persistencia de datos.
+* Despliegue de MongoDB en Docker con persistencia de datos.
 
-Implementación de una API con operaciones CRUD básicas.
+* Implementación de una API con operaciones CRUD básicas.
 
-Uso de Git y GitHub con control de versiones.
+* Uso de Git y GitHub con control de versiones.
 
-Dockerización de la API para facilitar su despliegue y ejecución en otros entornos.
+* Dockerización de la API para facilitar su despliegue y ejecución en otros entornos.
