@@ -65,8 +65,8 @@ exports.getApprovedGradeById = (req, res) => {
 };
 
 //Actualiza si dado un grade_id se puede repetir el examen solo si la nota es menor a 5
-//PUT /api/CanRepeatExam/:id
-// Este endpoint permite actualizar el campo canRepeatExam de un grade dado su ID.
+//PUT /api/CanRepeatExam/:grade_id
+// Este endpoint permite actualizar el campo canRepeatExam de un grade dado su grade_id.
 // Si el grade ya existe y su nota es mayor o igual a 5, no se puede actualizar.
 exports.putCanRepeatExam = (req, res) => {
     const { id } = req.params;
