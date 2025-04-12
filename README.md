@@ -113,7 +113,45 @@ URL:  /api/deleteByProfessor/:professor
 
 
 ```
+## CRUD Endpoints
+#### Crear calificaciones.
+#### Método: POST
+```
+URL:  /api/postcreategrade
+Body:
+{
+    "grade_id": "6",
+    "class": "Clase6",
+    "grade": 6,
+    "professor": "Deivis",
+    "canRepeatExam": false
+}
 
+```
+#### Obtiene una calificación por su Id 
+#### Método: Get
+```
+URL:  /api/getgrade/:id
+```
+#### Actualizar calificaciones.
+#### Método: PUT
+```
+URL:  /api/putgrade/:id
+Body:
+{
+    "grade_id": "6",
+    "class": "Clase6",
+    "grade": 6,
+    "professor": "Deivis",
+    "canRepeatExam": false
+}
+
+```
+#### Update calificaciones.
+#### Método: DELETE
+```
+URL:  /api/deletegrade/:id
+```
 
 ## 🛠️ Scripts Útiles
 En el archivo package.json, se definen los siguientes scripts:
