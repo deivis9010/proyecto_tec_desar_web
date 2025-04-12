@@ -7,7 +7,7 @@ const connectDB = () => {
             console.log('MongoDB connected successfully');
         })
         .catch((error) => {
-            console.error('Error al conectar a MongoDB:', error);
+            console.error('Error connecting to MongoDB:', error);
             process.exit(1);
         });
 };
