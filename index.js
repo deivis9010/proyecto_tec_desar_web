@@ -17,7 +17,8 @@ const gradeRoutes = require('./src/routes/grade.routes');
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
-
+// Middleware para parsear el cuerpo de las peticiones en formato JSON
+app.use(express.json()); 
 //Rutas de la aplicacion
 app.use("/api",gradeRoutes); 
 
